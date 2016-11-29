@@ -64,25 +64,7 @@
             this.netunavailable = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.ConnectWIFI = new System.Windows.Forms.NotifyIcon(this.components);
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.dotNetBarManager1 = new DevComponents.DotNetBar.DotNetBarManager(this.components);
-            this.dockSite1 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite2 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite3 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite4 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite5 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite6 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite7 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite8 = new DevComponents.DotNetBar.DockSite();
-            this.dotNetBarManager2 = new DevComponents.DotNetBar.DotNetBarManager(this.components);
-            this.dockSite9 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite10 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite11 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite12 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite13 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite14 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite15 = new DevComponents.DotNetBar.DockSite();
-            this.dockSite16 = new DevComponents.DotNetBar.DockSite();
-            this.progressBarX1 = new DevComponents.DotNetBar.Controls.ProgressBarX();
+            this.FUP = new System.Windows.Forms.ProgressBar();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.wifilist.SuspendLayout();
@@ -153,7 +135,6 @@
             this.skip.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.skip.Name = "skip";
             this.skip.TabStop = true;
-            this.skip.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.skip_LinkClicked);
             // 
             // reflectionLabel1
             // 
@@ -193,7 +174,7 @@
             // 
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.progressBarX1);
+            this.panel2.Controls.Add(this.FUP);
             this.panel2.Controls.Add(this.linequality);
             this.panel2.Controls.Add(this.refresh);
             this.panel2.Controls.Add(this.CheckSpeed);
@@ -263,7 +244,6 @@
             this.wifilist.TitleStyle.BorderColor.Color = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.wifilist.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.wifilist.TitleStyle.GradientAngle = 90;
-            this.wifilist.Click += new System.EventHandler(this.wifilist_Click);
             // 
             // panel3
             // 
@@ -410,181 +390,10 @@
             resources.ApplyResources(this.ConnectWIFI, "ConnectWIFI");
             this.ConnectWIFI.Click += new System.EventHandler(this.ConnectWIFI_Click);
             // 
-            // dotNetBarManager1
+            // FUP
             // 
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.F1);
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlC);
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlA);
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlV);
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlX);
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlZ);
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlY);
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.Del);
-            this.dotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.Ins);
-            this.dotNetBarManager1.BottomDockSite = this.dockSite4;
-            this.dotNetBarManager1.EnableFullSizeDock = false;
-            this.dotNetBarManager1.LeftDockSite = this.dockSite1;
-            this.dotNetBarManager1.ParentForm = this;
-            this.dotNetBarManager1.RightDockSite = this.dockSite2;
-            this.dotNetBarManager1.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2003;
-            this.dotNetBarManager1.ToolbarBottomDockSite = this.dockSite8;
-            this.dotNetBarManager1.ToolbarLeftDockSite = this.dockSite5;
-            this.dotNetBarManager1.ToolbarRightDockSite = this.dockSite6;
-            this.dotNetBarManager1.ToolbarTopDockSite = this.dockSite7;
-            this.dotNetBarManager1.TopDockSite = this.dockSite3;
-            // 
-            // dockSite1
-            // 
-            this.dockSite1.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite1, "dockSite1");
-            this.dockSite1.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite1.Name = "dockSite1";
-            this.dockSite1.TabStop = false;
-            // 
-            // dockSite2
-            // 
-            this.dockSite2.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite2, "dockSite2");
-            this.dockSite2.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite2.Name = "dockSite2";
-            this.dockSite2.TabStop = false;
-            // 
-            // dockSite3
-            // 
-            this.dockSite3.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite3, "dockSite3");
-            this.dockSite3.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite3.Name = "dockSite3";
-            this.dockSite3.TabStop = false;
-            // 
-            // dockSite4
-            // 
-            this.dockSite4.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite4, "dockSite4");
-            this.dockSite4.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite4.Name = "dockSite4";
-            this.dockSite4.TabStop = false;
-            // 
-            // dockSite5
-            // 
-            this.dockSite5.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite5, "dockSite5");
-            this.dockSite5.Name = "dockSite5";
-            this.dockSite5.TabStop = false;
-            // 
-            // dockSite6
-            // 
-            this.dockSite6.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite6, "dockSite6");
-            this.dockSite6.Name = "dockSite6";
-            this.dockSite6.TabStop = false;
-            // 
-            // dockSite7
-            // 
-            this.dockSite7.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite7, "dockSite7");
-            this.dockSite7.Name = "dockSite7";
-            this.dockSite7.TabStop = false;
-            // 
-            // dockSite8
-            // 
-            this.dockSite8.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite8, "dockSite8");
-            this.dockSite8.Name = "dockSite8";
-            this.dockSite8.TabStop = false;
-            // 
-            // dotNetBarManager2
-            // 
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.F1);
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlC);
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlA);
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlV);
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlX);
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlZ);
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.CtrlY);
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.Del);
-            this.dotNetBarManager2.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.Ins);
-            this.dotNetBarManager2.BottomDockSite = this.dockSite12;
-            this.dotNetBarManager2.EnableFullSizeDock = false;
-            this.dotNetBarManager2.LeftDockSite = this.dockSite9;
-            this.dotNetBarManager2.ParentForm = this;
-            this.dotNetBarManager2.RightDockSite = this.dockSite10;
-            this.dotNetBarManager2.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2003;
-            this.dotNetBarManager2.ToolbarBottomDockSite = this.dockSite16;
-            this.dotNetBarManager2.ToolbarLeftDockSite = this.dockSite13;
-            this.dotNetBarManager2.ToolbarRightDockSite = this.dockSite14;
-            this.dotNetBarManager2.ToolbarTopDockSite = this.dockSite15;
-            this.dotNetBarManager2.TopDockSite = this.dockSite11;
-            // 
-            // dockSite9
-            // 
-            this.dockSite9.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite9, "dockSite9");
-            this.dockSite9.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite9.Name = "dockSite9";
-            this.dockSite9.TabStop = false;
-            // 
-            // dockSite10
-            // 
-            this.dockSite10.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite10, "dockSite10");
-            this.dockSite10.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite10.Name = "dockSite10";
-            this.dockSite10.TabStop = false;
-            // 
-            // dockSite11
-            // 
-            this.dockSite11.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite11, "dockSite11");
-            this.dockSite11.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite11.Name = "dockSite11";
-            this.dockSite11.TabStop = false;
-            // 
-            // dockSite12
-            // 
-            this.dockSite12.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite12, "dockSite12");
-            this.dockSite12.DocumentDockContainer = new DevComponents.DotNetBar.DocumentDockContainer();
-            this.dockSite12.Name = "dockSite12";
-            this.dockSite12.TabStop = false;
-            // 
-            // dockSite13
-            // 
-            this.dockSite13.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite13, "dockSite13");
-            this.dockSite13.Name = "dockSite13";
-            this.dockSite13.TabStop = false;
-            // 
-            // dockSite14
-            // 
-            this.dockSite14.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite14, "dockSite14");
-            this.dockSite14.Name = "dockSite14";
-            this.dockSite14.TabStop = false;
-            // 
-            // dockSite15
-            // 
-            this.dockSite15.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite15, "dockSite15");
-            this.dockSite15.Name = "dockSite15";
-            this.dockSite15.TabStop = false;
-            // 
-            // dockSite16
-            // 
-            this.dockSite16.AccessibleRole = System.Windows.Forms.AccessibleRole.Window;
-            resources.ApplyResources(this.dockSite16, "dockSite16");
-            this.dockSite16.Name = "dockSite16";
-            this.dockSite16.TabStop = false;
-            // 
-            // progressBarX1
-            // 
-            // 
-            // 
-            // 
-            this.progressBarX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            resources.ApplyResources(this.progressBarX1, "progressBarX1");
-            this.progressBarX1.Name = "progressBarX1";
-            this.progressBarX1.Click += new System.EventHandler(this.progressBarX1_Click);
+            resources.ApplyResources(this.FUP, "FUP");
+            this.FUP.Name = "FUP";
             // 
             // Form1
             // 
@@ -592,24 +401,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ControlBox = false;
-            this.Controls.Add(this.dockSite10);
-            this.Controls.Add(this.dockSite9);
-            this.Controls.Add(this.dockSite2);
-            this.Controls.Add(this.dockSite1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dockSite3);
-            this.Controls.Add(this.dockSite4);
-            this.Controls.Add(this.dockSite5);
-            this.Controls.Add(this.dockSite6);
-            this.Controls.Add(this.dockSite7);
-            this.Controls.Add(this.dockSite8);
-            this.Controls.Add(this.dockSite11);
-            this.Controls.Add(this.dockSite12);
-            this.Controls.Add(this.dockSite13);
-            this.Controls.Add(this.dockSite14);
-            this.Controls.Add(this.dockSite15);
-            this.Controls.Add(this.dockSite16);
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -664,25 +457,7 @@
         private System.Windows.Forms.Label linequality;
         private DevComponents.DotNetBar.LabelX labelX3;
         private System.Windows.Forms.ToolTip toolTip1;
-        private DevComponents.DotNetBar.DotNetBarManager dotNetBarManager1;
-        private DevComponents.DotNetBar.DockSite dockSite4;
-        private DevComponents.DotNetBar.DockSite dockSite1;
-        private DevComponents.DotNetBar.DockSite dockSite2;
-        private DevComponents.DotNetBar.DockSite dockSite3;
-        private DevComponents.DotNetBar.DockSite dockSite5;
-        private DevComponents.DotNetBar.DockSite dockSite6;
-        private DevComponents.DotNetBar.DockSite dockSite7;
-        private DevComponents.DotNetBar.DockSite dockSite8;
-        private DevComponents.DotNetBar.Controls.ProgressBarX progressBarX1;
-        private DevComponents.DotNetBar.DockSite dockSite10;
-        private DevComponents.DotNetBar.DockSite dockSite9;
-        private DevComponents.DotNetBar.DockSite dockSite11;
-        private DevComponents.DotNetBar.DockSite dockSite12;
-        private DevComponents.DotNetBar.DockSite dockSite13;
-        private DevComponents.DotNetBar.DockSite dockSite14;
-        private DevComponents.DotNetBar.DockSite dockSite15;
-        private DevComponents.DotNetBar.DockSite dockSite16;
-        private DevComponents.DotNetBar.DotNetBarManager dotNetBarManager2;
+        private System.Windows.Forms.ProgressBar FUP;
 
 
     }

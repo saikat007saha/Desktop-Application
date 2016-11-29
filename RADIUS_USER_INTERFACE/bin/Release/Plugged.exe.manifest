@@ -43,11 +43,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="DevComponents.DotNetBar2" version="12.9.0.0" publicKeyToken="7EB7C3A35B91DE04" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevComponents.DotNetBar.Layout.dll" size="233984">
       <assemblyIdentity name="DevComponents.DotNetBar.Layout" version="12.8.0.6" publicKeyToken="7EB7C3A35B91DE04" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -68,6 +63,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>FeHodysTzimyqmhmKd6G07ekHUn7oaPrxndH/ZDOOLc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevComponents.DotNetBar2.dll" size="5578752">
+      <assemblyIdentity name="DevComponents.DotNetBar2" version="12.9.0.0" publicKeyToken="7EB7C3A35B91DE04" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NMpbITMSrURwQa3p8rUpuOGtZyK8U3bUG7An9bnSZhc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -108,26 +115,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Plugged.exe" size="4141568">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Plugged.exe" size="4112384">
       <assemblyIdentity name="Plugged" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gXSAcVcbS8dKfjZpqFuxGCqXV92EsrJUwu7HOrVTXyE=</dsig:DigestValue>
+        <dsig:DigestValue>iy3+warod+3vyMsvVq1XrEayXcMvBa1Wh2nglzyKZms=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PoziomLabs.dll" size="2416128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PoziomLabs.dll" size="2390016">
       <assemblyIdentity name="PoziomLabs" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hgUpOWSHfpK+S1ChDXIrzazq+FkdouEP9GxGBTMQW+4=</dsig:DigestValue>
+        <dsig:DigestValue>uaMuyQ63VZrqxFHC7KFjMXfbsa9dCWfVjU6IRfWdY0E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

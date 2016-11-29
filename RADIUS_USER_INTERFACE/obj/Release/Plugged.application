@@ -14,14 +14,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Plugged.exe.manifest" size="9558">
+    <dependentAssembly dependencyType="install" codebase="Plugged.exe.manifest" size="9959">
       <assemblyIdentity name="Plugged.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>b+dOTY6jbkK1orHP4u22SLoIWDQqqkSa5eFaSMNvSEE=</dsig:DigestValue>
+        <dsig:DigestValue>NQjUc5Rkp4V3PS9kZGS3pSq1r5Tp3mKK0BW4YNcP8N8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -247,7 +247,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>1</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -447,31 +447,28 @@
   <data name="panel2.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
     <value>2, 2</value>
   </data>
-  <data name="progressBarX1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 387</value>
+  <data name="FUP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 389</value>
   </data>
-  <data name="progressBarX1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 25</value>
+  <data name="FUP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
-  <data name="progressBarX1.TabIndex" type="System.Int32, mscorlib">
+  <data name="FUP.TabIndex" type="System.Int32, mscorlib">
     <value>76</value>
   </data>
-  <data name="progressBarX1.Text" xml:space="preserve">
-    <value>progressBarX1</value>
-  </data>
-  <data name="progressBarX1.Visible" type="System.Boolean, mscorlib">
+  <data name="FUP.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;progressBarX1.Name" xml:space="preserve">
-    <value>progressBarX1</value>
+  <data name="&gt;&gt;FUP.Name" xml:space="preserve">
+    <value>FUP</value>
   </data>
-  <data name="&gt;&gt;progressBarX1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.Controls.ProgressBarX, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
+  <data name="&gt;&gt;FUP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;progressBarX1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;FUP.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="&gt;&gt;progressBarX1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;FUP.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="linequality.AutoSize" type="System.Boolean, mscorlib">
@@ -658,7 +655,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;wifiname.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="labelX4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Cambria, 12pt, style=Bold</value>
@@ -688,7 +685,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;labelX4.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="labelX3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Cambria, 9.75pt, style=Bold, Italic</value>
@@ -715,7 +712,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;labelX3.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="internetconnection.Font" type="System.Drawing.Font, System.Drawing">
     <value>Cambria, 9.75pt, style=Bold, Italic</value>
@@ -742,7 +739,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;internetconnection.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="ssid.Font" type="System.Drawing.Font, System.Drawing">
     <value>Cambria, 12pt, style=Bold, Italic</value>
@@ -769,7 +766,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;ssid.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="circularProgress1.Location" type="System.Drawing.Point, System.Drawing">
     <value>153, 183</value>
@@ -793,7 +790,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;circularProgress1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="shapeContainer1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -817,7 +814,7 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;shapeContainer1.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="panel2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8pt</value>
@@ -841,7 +838,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>0</value>
   </data>
   <data name="panel3.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3581,57 +3578,6 @@ is not &lt;i&gt;ENABLED&lt;/i&gt;</value>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>963, 17</value>
   </metadata>
-  <metadata name="dotNetBarManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1060, 17</value>
-  </metadata>
-  <data name="dockSite4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="dockSite4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite4.TabIndex" type="System.Int32, mscorlib">
-    <value>31</value>
-  </data>
-  <data name="&gt;&gt;dockSite4.Name" xml:space="preserve">
-    <value>dockSite4</value>
-  </data>
-  <data name="&gt;&gt;dockSite4.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite4.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="dockSite1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="dockSite1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dockSite1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite1.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;dockSite1.Name" xml:space="preserve">
-    <value>dockSite1</value>
-  </data>
-  <data name="&gt;&gt;dockSite1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -3646,342 +3592,6 @@ is not &lt;i&gt;ENABLED&lt;/i&gt;</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>384, 431</value>
-  </data>
-  <data name="dockSite10.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="dockSite10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite10.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="&gt;&gt;dockSite10.Name" xml:space="preserve">
-    <value>dockSite10</value>
-  </data>
-  <data name="&gt;&gt;dockSite10.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite10.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="dockSite9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="dockSite9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dockSite9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite9.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
-  </data>
-  <data name="&gt;&gt;dockSite9.Name" xml:space="preserve">
-    <value>dockSite9</value>
-  </data>
-  <data name="&gt;&gt;dockSite9.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="dockSite2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="dockSite2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite2.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;dockSite2.Name" xml:space="preserve">
-    <value>dockSite2</value>
-  </data>
-  <data name="&gt;&gt;dockSite2.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="dockSite3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="dockSite3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dockSite3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite3.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="&gt;&gt;dockSite3.Name" xml:space="preserve">
-    <value>dockSite3</value>
-  </data>
-  <data name="&gt;&gt;dockSite3.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite3.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="dockSite5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="dockSite5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dockSite5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite5.TabIndex" type="System.Int32, mscorlib">
-    <value>32</value>
-  </data>
-  <data name="&gt;&gt;dockSite5.Name" xml:space="preserve">
-    <value>dockSite5</value>
-  </data>
-  <data name="&gt;&gt;dockSite5.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite5.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="dockSite6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="dockSite6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite6.TabIndex" type="System.Int32, mscorlib">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;dockSite6.Name" xml:space="preserve">
-    <value>dockSite6</value>
-  </data>
-  <data name="&gt;&gt;dockSite6.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite6.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="dockSite7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="dockSite7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dockSite7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite7.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
-  </data>
-  <data name="&gt;&gt;dockSite7.Name" xml:space="preserve">
-    <value>dockSite7</value>
-  </data>
-  <data name="&gt;&gt;dockSite7.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite7.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="dockSite8.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="dockSite8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite8.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
-  </data>
-  <data name="&gt;&gt;dockSite8.Name" xml:space="preserve">
-    <value>dockSite8</value>
-  </data>
-  <data name="&gt;&gt;dockSite8.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite8.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="dockSite11.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="dockSite11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dockSite11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite11.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="&gt;&gt;dockSite11.Name" xml:space="preserve">
-    <value>dockSite11</value>
-  </data>
-  <data name="&gt;&gt;dockSite11.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite11.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="dockSite12.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="dockSite12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite12.TabIndex" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="&gt;&gt;dockSite12.Name" xml:space="preserve">
-    <value>dockSite12</value>
-  </data>
-  <data name="&gt;&gt;dockSite12.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite12.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite12.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="dockSite13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="dockSite13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dockSite13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite13.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
-  </data>
-  <data name="&gt;&gt;dockSite13.Name" xml:space="preserve">
-    <value>dockSite13</value>
-  </data>
-  <data name="&gt;&gt;dockSite13.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite13.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite13.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="dockSite14.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="dockSite14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite14.TabIndex" type="System.Int32, mscorlib">
-    <value>41</value>
-  </data>
-  <data name="&gt;&gt;dockSite14.Name" xml:space="preserve">
-    <value>dockSite14</value>
-  </data>
-  <data name="&gt;&gt;dockSite14.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite14.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite14.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="dockSite15.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="dockSite15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="dockSite15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite15.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="&gt;&gt;dockSite15.Name" xml:space="preserve">
-    <value>dockSite15</value>
-  </data>
-  <data name="&gt;&gt;dockSite15.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite15.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite15.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="dockSite16.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="dockSite16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 431</value>
-  </data>
-  <data name="dockSite16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>384, 0</value>
-  </data>
-  <data name="dockSite16.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="&gt;&gt;dockSite16.Name" xml:space="preserve">
-    <value>dockSite16</value>
-  </data>
-  <data name="&gt;&gt;dockSite16.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DockSite, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dockSite16.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dockSite16.ZOrder" xml:space="preserve">
-    <value>17</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ConnectWIFI</value>
@@ -4046,25 +3656,10 @@ is not &lt;i&gt;ENABLED&lt;/i&gt;</value>
   <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dotNetBarManager1.Name" xml:space="preserve">
-    <value>dotNetBarManager1</value>
-  </data>
-  <data name="&gt;&gt;dotNetBarManager1.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DotNetBarManager, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
-  <data name="&gt;&gt;dotNetBarManager2.Name" xml:space="preserve">
-    <value>dotNetBarManager2</value>
-  </data>
-  <data name="&gt;&gt;dotNetBarManager2.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.DotNetBarManager, DevComponents.DotNetBar2, Version=12.9.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04</value>
-  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="dotNetBarManager2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 56</value>
-  </metadata>
 </root>

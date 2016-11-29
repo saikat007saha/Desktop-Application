@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugged", "RADIUS_USER_INTERFACE\Plugged.csproj", "{055B328E-9130-4D8F-AA00-965274343C1A}"
 EndProject
 Global
