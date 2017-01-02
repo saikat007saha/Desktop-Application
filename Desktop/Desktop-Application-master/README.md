@@ -1,24 +1,21 @@
 # Desktop-Application
-###Wifi manager that auto-switches to connections with better signal, runs speed tests, shows potential connectivity issues and the number of devices connected to your network:
-
-
+###File manager inside an office. You can edit, share files over the network using a very simple to use tray application. 
  
-Plugged is an easy-to-use application that can replace your default wireless connection manager built into the operating system, in order to enhance its functionality. For example, it displays the number of devices currently linked to your network and can perform a speed test to evaluate your upload and download rate.
+Plugged is an easy-to-use application that can replace your default windows credential based file and media sharing feature. It is a tray application on which you can drag and drop any file and it will be available for download for anyone in the network.
 
-###Replaces your default Windows wifi manager:
+###Replaces your default Windows Network File Sharing :
 
 Installing this program is a simple task but, if you encounter any errors, check your computer to see if it has .NET Framework installed since it cannot work without this software framework.
 
 Once launched, Plugged creates an icon in the systray, which shows a list of all wireless networks in your range when clicking
 
-it. In addition to the network name and connection signal, it displays the amount of used data and number of devices currently linked to the same connection as you.
+it. Once you connect to a Wifi network, you can start sharing files which will be stored against the router's MAC address on the server. Any other user on the same network can now use this to retrive this file.
 
-###Shows potential wifi issues and auto-connects to networks with a better signal:
-Connecting to a network using this program means selecting a network from the list and entering the password if it's protected. If a connection is unavailable for some reason, it shows possible problems to help you figure out a solution, such as "No Internet access" or "DNS Server Down". Furthermore, it can automatically switch to an access point with a better signal strength. There is no option available for disabling this.
+###Send file request to users who are not even online:
+Asking for a file using this program means the user who has the file should be online. If the user is unavailable for some reason, it takes the request on queue and whenever the user next comes online, the file gets downloaded. Furthermore, it can be extended to customise who all can access the file that one is sharing. Most of the logic is on the backend. 
 
-###View the number of devices connected to your network and run speed tests
-This list can be refreshed with the click of a button. Moreover, you can run a speed test to determine the download and upload rate of the network you're currently connected to. This is a good indicator to help you decide which network to pick if you have multiple options at hand. However, it involves connecting to each network to calculate the download and upload rate, which can take a while.
-
+###No internet is required for file transfer
+The file transfer mechanism uses UDP and TCP protocol and takes over the local network. The objective of the whole process it to save internet usage for file transfers inside an office.
 
 
 Read more: http://www.softpedia.com/get/Network-Tools/Misc-Networking-Tools/Plugged.shtml#ixzz4QMNnU1r5
